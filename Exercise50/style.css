@@ -1,0 +1,19 @@
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(205, 249, 249);
+}
+
+.container {
+    height: 100%;
+    padding: 0 12px
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex48</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./ex48/images/Jackson.gif" alt="Title">
+        </header>
+        <main>
+            <h2>
+                Registration Form
+            </h2>
+            <form action="POST">
+                <table>
+                    <caption>Register your Jackson Electronics product here</caption>
+                    <tr>
+                        <td>
+                            <label for="first-name">First Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="first-name" id="first-name">
+                            <label for="last-name">Last name</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="address-1">Address #1</label>
+                        </td>
+                        <td>
+                            <input type="text" name="address-1" id="address-1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="address-2">Address #2</label>
+                        </td>
+                        <td>
+                            <input type="text" name="address-2" id="address-2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="city">City</label>
+                        </td>
+                        <td>
+                            <input type="text" name="city" id="city">
+                            <label for="state">State</label>
+                            <input type="text" name="state" id="state" style="width: 20%;">
+                            <label for="zip">Zip</label>
+                            <input type="text" name="zip" id="zip" style="width: 20%;">
+                        </td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid black; margin-bottom: 12px;">
+                        <td style="padding-bottom: 16px;">
+                            <label for="country">Country</label>
+                        </td>
+                        <td style="padding-bottom: 16px;">
+                            <input type="text" name="country" id="country">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding-top: 16px;">
+                            <label for="product">
+                                Product
+                            </label>
+                        </td>
+                        <td style="padding-top: 16px;">
+                            <select name="product" id="product">
+                                <option value="1">ScanMaster</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="date-purchased">Date Purchased</label>
+                        </td>
+                        <td>
+                            <input type="text" name="date-purchased" id="date-purchased">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="serial">Serial #</label>
+                        </td>
+                        <td>
+                            <input type="text" name="serial" id="serial">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;">
+                            <label for="usage">Used for</label>
+                        </td>
+                        <td>
+                            <div>
+                                <span>
+                                    <input type="radio" value="home" name="usage" id="home">
+                                    <label for="home">Home</label>
+                                </span>
+                                <span style="margin-left: 80px;">
+                                    <input type="radio" value="educational-institution" name="usage"
+                                        id="educational-institution">
+                                    <label for="educational-institution">Educational Institution</label>
+                                </span>
+                            </div>
+                            <div>
+                                <span>
+                                    <input type="radio" value="business" name="usage" id="business">
+                                    <label for="business">Business</label>
+                                </span>
+                                <span style="margin-left: 62px;">
+                                    <input type="radio" value="other" name="usage" id="other">
+                                    <label for="other">Other</label>
+                                </span>
+                            </div>
+                            <span>
+                                <input type="radio" value="government" name="usage" id="government">
+                                <label for="government">Government</label>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid black;">
+                        <td style="vertical-align: top; padding-bottom: 16px;">
+                            <label for="system">System (check all that apply)</label>
+                        </td>
+                        <td style="padding-bottom: 16px;">
+                            <div>
+                                <span>
+                                    <input type="checkbox" value="windows" name="system" id="windows">
+                                    <label for="windows">Windows</label>
+                                </span>
+                                <span style="margin-left: 58px;">
+                                    <input type="checkbox" value="UNIX" name="system" id="unix">
+                                    <label for="unix">UNIX</label>
+                                </span>
+                            </div>
+                            <div>
+                                <span>
+                                    <input type="checkbox" value="macintosh" name="system" id="macintosh">
+                                    <label for="macintosh">Macintosh</label>
+                                </span>
+                                <span style="margin-left: 51px;">
+                                    <input type="checkbox" value="other" name="system" id="other-system">
+                                    <label for="other-system">Other</label>
+                                </span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; padding-top: 16px;">
+                            <label for="comments">Comments?</label>
+                        </td>
+                        <td style="padding-top: 16px;">
+                            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <div class="button-group">
+                    <button onclick="javascript:window.alert('Register')">
+                        Click to register
+                    </button>
+                    <button type="reset">
+                        Click to cancel
+                    </button>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

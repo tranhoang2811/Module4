@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex53 result</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <p>Quantity</p>
+        <p id="quantity"></p>
+        <p>Price</p>
+        <p id="price"></p>
+    </div>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const quantityList = urlParams.getAll('quantityList[]');
+        const priceList = urlParams.getAll('priceList[]');
+
+        document.getElementById("quantity").innerHTML = `${quantityList}`;
+        document.getElementById("price").innerHTML = `${priceList}`;
+    </script>
+</body>
+
+</html>

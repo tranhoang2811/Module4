@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex52</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="./result.html" method="GET">
+            <h4>
+                Contact the editorial office 
+            </h4>
+            <div class="form-control">
+                <label for="fullName">Full name</label>
+                <input type="text" name="fullName" id="fullName">
+            </div>
+            <div style="display: flex; gap: 16px;">
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="form-control">
+                    <label for="sendTo">Send To</label>
+                    <select name="sendTo" id="sendTo">
+                        <option value="editorialBoard">Editorial board</option>
+                        <option value="newsDepartment">News department</option>
+                        <option value="boardOfPerspectives">Board of Perspectives</option>
+                        <option value="worldBoard">World Board</option>
+                        <option value="businessDepartment">Business Department</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-control">
+                <label for="title">Tile</label>
+                <input type="text" name="title" id="title">
+            </div>
+            <div class="form-control">
+                <label for="content">Content</label>
+                <textarea name="content" id="content" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit">
+                Send
+            </button>
+        </form>
+    </div>
+</body>
+</html>

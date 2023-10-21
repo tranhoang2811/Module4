@@ -1,0 +1,47 @@
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(205, 249, 249);
+}
+
+.container {
+    height: 100%;
+    padding: 0 12px
+}
+
+header h1 {
+    color: red;
+}
+
+.classification-container {
+    display: flex;
+}
+
+.classification-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+.classification-container .classification-item {
+    width: 120px;
+}
+
+.publication-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.publication-container .publication-item {
+    width: 180px;
+}
+
+.button-group .button-item {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

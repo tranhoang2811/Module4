@@ -1,0 +1,43 @@
+form {
+    border: 1px solid black;
+    border-radius: 2px;
+    width: fit-content;
+    padding: 2px;
+}
+
+h4 {
+    margin: 0;
+    padding: 10px;
+    background-color: #eee;
+    border-bottom: 1px solid black;
+}
+.form-control {
+    padding: 8px 0px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control>input,
+.form-control>select {
+    box-sizing: border-box;
+    height: 28px;
+    width: 100%;
+}
+
+.form-control>textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+button {
+    box-sizing: border-box;
+    padding: 8px 32px;
+    background-color: #a0244c;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white
+}

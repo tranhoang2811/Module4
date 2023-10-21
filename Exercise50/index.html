@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex50</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./ex50/DeLong.jpg">
+            <h2>
+                Travel Expense Report
+            </h2>
+        </header>
+        <hr>
+        <main>
+            <form action="">
+                <section>
+                    <p style="display: inline">
+                        1)
+                    </p>
+                    <label for="first-name">
+                        First Name:
+                    </label>
+                    <input type="text" id="first-name">
+                    <label for="last-name">
+                        Last Name:
+                    </label>
+                    <input type="text" id="last-name">
+                </section>
+                <section>
+                    <label for="security-number">
+                        2) Social Security Number:
+                    </label>
+                    <input type="text" id="security-number">
+                </section>
+                <section>
+                    <label for="department">
+                        3) Department:
+                    </label>
+                    <select name="department" id="department">
+                        <option value="accounting">Accounting</option>
+                        <option value="hr">HR</option>
+                    </select>
+                </section>
+                <section>
+                    <label for="description">
+                        4) Describe the purpose of your trip:
+                    </label>
+                    <textarea style="display: block; margin-top: 16px;" name="description" id="description" cols="80" rows="6">
+                    </textarea>
+                </section>
+                <section>
+                    <p style="display: inline">
+                        5) Itemize your travel expenses
+                    </p>
+                    <table border="1" style="margin-top: 12px;">
+                        <tr>
+                            <th>Date</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                            <th>Amount</th>
+                        </tr>
+                        <tr>
+                            <td><input type="date"></td>
+                            <td><input type="text"></td>
+                            <td>
+                                <select name="category" id="category">
+                                    <option value="meal">Meal</option>
+                                    <option value="milk">Milk</option>
+                                </select>
+                            </td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="date"></td>
+                            <td><input type="text"></td>
+                            <td>
+                                <select name="category" id="category">
+                                    <option value="meal">Meal</option>
+                                    <option value="milk">Milk</option>
+                                </select>
+                            </td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="date"></td>
+                            <td><input type="text"></td>
+                            <td>
+                                <select name="category" id="category">
+                                    <option value="meal">Meal</option>
+                                    <option value="milk">Milk</option>
+                                </select>
+                            </td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="date"></td>
+                            <td><input type="text"></td>
+                            <td>
+                                <select name="category" id="category">
+                                    <option value="meal">Meal</option>
+                                    <option value="milk">Milk</option>
+                                </select>
+                            </td>
+                            <td><input type="text"></td>
+                        </tr>
+                    </table>
+                </section>
+                <section>
+                    <p for="description" style="display: inline">
+                        6) Have you submitted your receipts?
+                    </p>
+                    <input type="radio" name="yes" id="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="no" id="no">
+                    <label for="no">No</label>
+                </section>
+                <div class="button-group">
+                    <button onclick="javascript:window.alert('Submit')">
+                        Submit travel expenses
+                    </button>
+                    <button type="reset">
+                        Reset
+                    </button>
+                </div>
+            </form>
+            <p>
+                Questions? Contact Debbie Larson in Accounting
+            </p>
+        </main>
+    </div>
+</body>
+
+</html>

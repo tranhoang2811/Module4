@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex51</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./ex51/Logo.gif" alt="Logo">
+            <h1>
+                Newborn Registration
+            </h1>
+        </header>
+        <form action="">
+            <main>
+                <div>
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div>
+                    <p>
+                        1)
+                    </p>
+                    <label for="firstName">Infant's first name:</label>
+                    <input type="text" name="firstName" id="firstName">
+                    <label for="lastName">Last:</label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+                <div>
+                    <p>
+                        2)
+                    </p>
+                    <label for="medicalRecord">Medical Record#</label>
+                    <input type="text" name="medicalRecord" id="medicalRecord">
+                </div>
+                <div>
+                    <p>
+                        3)
+                    </p>
+                    <label for="dateOfBirth">Date of birth:</label>
+                    <input type="date" name="dateOfBirth" id="dateOfBirth">
+                </div>
+                <div>
+                    <p>
+                        4)
+                    </p>
+                    <label for="birthWeight">Birth weight:</label>
+                    <input type="text" name="birthWeight" id="birthWeight">
+                </div>
+                <div>
+                    <p>
+                        5)
+                    </p>
+                    <label for="apgarScore">APGAR score:</label>
+                    <input type="text" name="apgarScore" id="apgarScore">
+                </div>
+                <div>
+                    <p>
+                        6)
+                    </p>
+                    <label for="motherFirstName">Mother's first name:</label>
+                    <input type="text" name="motherFirstName" id="motherFirstName">
+                    <label for="motherLastName">Last:</label>
+                    <input type="text" name="motherLastName" id="motherLastName">
+                </div>
+                <div>
+                    <p>
+                        7)
+                    </p>
+                    <label for="fatherFirstName">Father's last name:</label>
+                    <input type="text" name="fatherFirstName" id="fatherFirstName">
+                    <label for="fatherLastName">Last:</label>
+                    <input type="text" name="fatherLastName" id="fatherLastName">
+                </div>
+                <div style="display: flex; align-items: flex-start;">
+                    <label style="width: 140px;" for="physician">
+                        8) Physician (check all that apply):
+                    </label>
+                    <select name="physician" id="physician">
+                        <option value="warrenAlbert">Dr: Warren Albert</option>
+                        <option value="mariaAlvarez">Dr: Maria Alvarez</option>
+                        <option value="karenBrinkman">Dr: Karen Brinkman</option>
+                        <option value="michealKerry">Dr: Micheal Kerry</option>
+                    </select>
+                </div>
+            </main>
+            <footer>
+                <button onclick="javascript:window.alert('Submit')">Register</button>
+                <button type="reset">Cancel</button>
+            </footer>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100%;
+    background-color: #008080;
+    color: white;
+}
+
+.container {
+    width: fit-content;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main p {
+    display: inline;
+}
+
+footer {
+    padding-top: 24px;
+    text-align: center;
+}

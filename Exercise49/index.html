@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex49</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Online Classifieds Search Form
+            </h1>
+        </header>
+        <hr>
+        <main>
+            <form action="">
+                <section>
+                    <h3>
+                        1) Search for a classified in the following sections:
+                    </h3>
+                    <div class="classification-container">
+                        <div class="classification-item">
+                            <input type="radio" name="classification" id="employment">
+                            <label for="employment">Employment</label>
+                        </div>
+                        <div class="classification-item">
+                            <input type="radio" name="classification" id="personal">
+                            <label for="personal">Personal</label>
+                        </div>
+                        <div class="classification-item">
+                            <input type="radio" name="classification" id="for-sale">
+                            <label for="for-sale">For sale</label>
+                        </div>
+                        <div class="classification-item">
+                            <input type="radio" name="classification" id="miscellanecus">
+                            <label for="miscellanecus">Miscellanecus</label>
+                        </div>
+                        <div class="classification-item">
+                            <input type="radio" name="classification" id="housing">
+                            <label for="housing">Housing</label>
+                        </div>
+                        <div class="classification-item">
+                            <input type="radio" name="classification" id="all">
+                            <label for="all">All</label>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h3>
+                        2) Search the following publications:
+                    </h3>
+                    <div class="publication-container">
+                        <div class="publication-item">
+                            <input type="checkbox" name="publication" id="midwest-times">
+                            <label for="midwest-times">Midwest times</label>
+                        </div>
+                        <div class="publication-item">
+                            <input type="checkbox" name="publication" id="modern-news">
+                            <label for="modern-news">Modern news</label>
+                        </div>
+                        <div class="publication-item">
+                            <input type="checkbox" name="publication" id="employment-today">
+                            <label for="employment-today">Employment Today</label>
+                        </div>
+                        <div class="publication-item">
+                            <input type="checkbox" name="publication" id="great-lakes-classifieds">
+                            <label for="great-lakes-classifieds">Great Lakes Classifieds</label>
+                        </div>
+                        <div class="publication-item">
+                            <input type="checkbox" name="publication" id="middleton-daily">
+                            <label for="middleton-daily">Middleton Daily</label>
+                        </div>
+                        <div class="publication-item">
+                            <input type="checkbox" name="publication" id="cashtown-daily-news">
+                            <label for="cashtown-daily-news">Cashtown Daily News</label>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h3 style="display: inline-block;">3) From to</h3>
+                    <span>
+                        <input type="date" name="start" id="start">
+                        to
+                        <input type="date" name="end" id="end">
+                    </span>
+                </section>
+                <section>
+                    <h3>
+                        4) Enter a few keywords to describe the classified.
+                    </h3>
+                    <div>
+                        <input type="text" style="width: 500px;">
+                    </div>
+                </section>
+                <section>
+                    <h3>
+                        5) Click one of the options below:
+                    </h3>
+                    <div class="button-group">
+                        <button class="button-item" onclick="javascript:window.alert('Searching')">
+                            <img src="./ex49/Search.gif">
+                        </button>
+                        <button class="button-item">
+                            <img src="./ex49/Help.gif">
+                        </button>
+                        <button class="button-item" type="reset">
+                            <img src="./ex49/Cancel.gif">
+                        </button>
+                    </div>
+                </section>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

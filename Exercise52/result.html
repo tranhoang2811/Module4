@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex52 result</title>
+</head>
+
+<body>
+    <div>
+        <p>Full name</p>
+        <p id="fullName"></p>
+        <p>Email</p>
+        <p id="email"></p>
+        <p>Send To</p>
+        <p id="sendTo"></p>
+        <p>Tile</p>
+        <p id="title"></p>
+        <p>Content</p>
+        <p id="content"></p>
+    </div>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const fullName = urlParams.get('fullName');
+        const email = urlParams.get('email');
+        const sendTo = urlParams.get('sendTo');
+        const title = urlParams.get('title');
+        const content = urlParams.get('content');
+        document.getElementById('fullName').innerHTML = fullName;
+        document.getElementById('email').innerHTML = email;
+        document.getElementById('sendTo').innerHTML = sendTo;
+        document.getElementById('title').innerHTML = title;
+        document.getElementById('content').innerHTML = content;
+    </script>
+</body>
+
+</html>

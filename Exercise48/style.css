@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    background-color: rgb(205, 249, 249);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 40%;
+}
+
+header,
+main h2 {
+    text-align: center;
+}
+
+main h2 {
+    margin: 8px 0px;
+}
+
+table {
+    width: 100%;
+}
+
+table caption {
+    margin: 8px 0px;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border-spacing: 10px 15px
+}
+
+td {
+    padding: 2px 8px;
+}
+
+input:not([type="radio"]):not([type="checkbox"]) {
+    height: 28px
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+textarea {
+    width: 100%;
+}
+
+td {
+    white-space: nowrap
+}
